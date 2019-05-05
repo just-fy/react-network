@@ -1,0 +1,11 @@
+.header {
+    height: 42px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #4c77a6;
+}
+.logo {
+    width: 50px;
+    margin-top: 6px;
+}

@@ -2,27 +2,8 @@
     margin: 0;
     padding: 0;
 }
-.page-header {
-    height: 42px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    background-color: #4c77a6;
-}
-.page-header__logo {
-    width: 50px;
-    margin-top: 6px;
-}
-
 .page-layout {
     display: grid;
     grid-template-columns: 140px 10fr;
     margin-top: 50px;
-}
-.page-nav__item {
-    list-style: none;
-    padding: 15px 0;
-}
-.page-nav__link {
-    text-decoration: none;
 }
