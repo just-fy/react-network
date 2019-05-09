@@ -1,0 +1,18 @@
+.wrapper {
+    width: 550px;
+    height: 160px;
+}
+.wrapper img {
+    width: 50px;
+    border-radius: 10px;
+}
+.postPhoto {
+    float: left;
+    padding: 0 15px 15px 15px;
+}
+.postText {
+    display: block;
+}
+.time {
+    display: block;
+}
