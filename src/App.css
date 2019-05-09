@@ -2,13 +2,11 @@ body {
     background-color: #edeef0;
 }
 .page-wrapper {
-    margin: 0;
-    padding: 0;
-
-}
-.page-layout {
     display: grid;
-    grid-template-columns: 140px 10fr;
-    margin-top: 50px;
-    margin-left: 100px;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr;
+}
+.page-main {
+    flex: 1;
+    padding: 20px;
 }

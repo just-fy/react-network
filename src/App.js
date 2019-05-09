@@ -4,16 +4,18 @@ import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import Profile from "./components/Profile/Profile";
 import Messages from './components/Messages/Messages';
+import Footer from  './components/Footer/Footer';
 
 function App() {
   return (
       <div className="page-wrapper">
           <Header />
-          <div className='page-layout'>
-              <Navbar />
+          <Navbar />
+          <main className='page-main'>
               <Profile />
               <Messages />
-          </div>
+          </main>
+          <Footer />
       </div>
   );
 }

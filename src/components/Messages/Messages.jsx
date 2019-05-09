@@ -1,9 +1,10 @@
 import React from 'react';
+import s from './Messages.module.css';
 
 const Messages = () => {
     return (
         <div>
-            <p>Dialogs</p>
+            <p className={s.dialog}>Dialogs</p>
         </div>
     )
 };
