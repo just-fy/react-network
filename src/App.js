@@ -9,21 +9,19 @@ import News from "./components/News/News";
 import Photos from "./Photos/Photos";
 import {BrowserRouter, Route} from "react-router-dom";
 
-
-
 function App() {
     return (
         <BrowserRouter>
             <div className="page-wrapper">
-                <Header/>
-                <Navbar/>
+                <Header />
+                <Navbar />
                 <main className='page-main'>
                     <Route path='/profile' component={Profile} />
                     <Route path='/messages' component={Messages} />
                     <Route path='/news' component={News} />
                     <Route path='/photos' component={Photos} />
                 </main>
-                <Footer/>
+                <Footer />
             </div>
         </BrowserRouter>
     );

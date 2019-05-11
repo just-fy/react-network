@@ -9,3 +9,6 @@
 .navLink {
     text-decoration: none;
 }
+.linkActive {
+    color: coral;
+}
