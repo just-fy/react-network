@@ -7,6 +7,7 @@ body {
     grid-template-rows: auto 1fr;
 }
 .page-main {
+    height: 100vh;
     flex: 1;
     padding: 20px;
 }
