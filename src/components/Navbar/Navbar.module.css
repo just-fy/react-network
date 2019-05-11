@@ -1,12 +1,18 @@
 .navigation {
-    background-color: darkseagreen;
 }
 .navItem {
     list-style: none;
     height: 28px;
     width: 128px;
+    padding-top: 7px;
+}
+.navItem:hover {
+    cursor: pointer;
+    background-color: #e1e5eb;
 }
 .navLink {
+
+    color: #2a5572;
     text-decoration: none;
 }
 .linkActive {
