@@ -1,0 +1,11 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    background-color: white;
+}
+.narrow_content, .wide_content {
+    padding: 0 20px;
+}
+.ava {
+    float: left;
+}

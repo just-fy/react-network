@@ -6,7 +6,7 @@ body {
     grid-template-columns: 200px 1fr;
     grid-template-rows: auto 1fr;
 }
-.page-main {
+.page-content {
     height: 100vh;
     flex: 1;
     padding: 20px;

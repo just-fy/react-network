@@ -1,3 +1,24 @@
-.dialog {
+.page_wrap {
     display: grid;
+    grid-template-columns: 3fr 5fr;
+    min-height: 624px;
+    height: auto;
+    background-color: white;
+}
+.dialogs_wrap, .messages_wrap {
+    padding-left: 20px;
+}
+
+.dialog, .message {
+    text-decoration: none;
+    padding-top: 10px;
+}
+.link {
+    cursor: pointer;
+    text-decoration: none;
+    color: #2a5572;
+}
+.link:hover {
+    font-size: 18px;
+    font-weight: 600;
 }

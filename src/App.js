@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import Header from "./components/Header/Header";
-import Navbar from "./components/Navbar/Navbar";
-import Profile from "./components/Navbar/Profile/Profile";
+import Navbar from "./components/Navbar/LeftSidebar/Navbar";
+import Profile from "./components/Navbar/Profile/MyProfile/Profile";
 import Messages from './components/Navbar/Messages/Messages';
 import Footer from './components/Footer/Footer';
 import News from "./components/Navbar/News/News";
@@ -15,13 +15,13 @@ function App() {
             <div className="page-wrapper">
                 <Header />
                 <Navbar />
-                <main className='page-main'>
+                <main className='page-content'>
                     <Route path='/profile' component={Profile} />
                     <Route path='/messages' component={Messages} />
                     <Route path='/news' component={News} />
                     <Route path='/photos' component={Photos} />
                 </main>
-                <Footer />
+                {/*<Footer />*/}
             </div>
         </BrowserRouter>
     );
